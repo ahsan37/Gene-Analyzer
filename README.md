@@ -1,6 +1,6 @@
 # ExaGene - Genomic Analysis Tool
 
-⚠️ **Disclaimer**: This tool is an independent project and is not affiliated with or endorsed by Exa.ai.
+**Disclaimer**: This tool is an independent project and is not affiliated with or endorsed by Exa.ai.
 
 ExaGene is an open-source tool that analyzes 23andMe raw genetic data to provide insights based on current scientific research. It uses AI to search and summarize relevant research papers for your specific genetic variants.
 
@@ -13,7 +13,7 @@ ExaGene is an open-source tool that analyzes 23andMe raw genetic data to provide
 - Latest Research paper analysis using Exa.ai
 - AI-powered summaries of scientific findings
 
-## ⚡ Quick Start
+## Quick Start
 
 1. Clone the repository:
 
@@ -83,7 +83,7 @@ The Node.js/Express backend handles:
    - Generates summaries using OpenAI
    - Returns personalized interpretations
 
-## ⚠️ Limitations and Considerations
+## Limitations and Considerations
 
 1. **Single SNP Analysis**: 
    - Currently analyzes individual SNPs rather than polygenic scores
@@ -118,7 +118,7 @@ The SNP selection and interpretation are based on peer-reviewed research. Curren
 See `server/src/data/SNPs.json` for the complete list.
 
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This tool is for research and educational purposes only. It should not be used for medical diagnosis or treatment decisions.
 
