@@ -4,7 +4,7 @@
       "traitName": "Lactose Intolerance",
       "genotypeInterpretation": {
         "CC": "Likely lactose intolerant",
-        "CT": "Intermediate tolerance",
+        "CT": "Moderate tolerance",
         "TT": "Likely lactose tolerant"
       },
       "queryTemplate": "diet tips for lactose intolerance management",
@@ -30,7 +30,7 @@
       "traitName": "Caffeine Metabolism (CYP1A2)",
       "genotypeInterpretation": {
         "AA": "Fast caffeine metabolizer",
-        "AC": "Intermediate caffeine metabolizer",
+        "AC": "Moderate caffeine metabolizer",
         "CC": "Slow caffeine metabolizer"
       },
       "queryTemplate": "recommended caffeine intake guidelines",

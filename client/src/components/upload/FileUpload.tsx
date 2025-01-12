@@ -2,13 +2,13 @@ import React, { useState } from 'react';
 import { uploadGenomeFile } from '../../services/api';
 import type { AnalysisResult } from '../../types/results';
 
-
+// smaple results for demo
 const sampleResults: AnalysisResult[] = [
     {
         rsid: 'rs762551',
         traitName: 'Caffeine Metabolism (CYP1A2)',
         userGenotype: 'AC',
-        interpretation: 'Intermediate caffeine metabolizer',
+        interpretation: 'Moderate caffeine metabolizer',
         paper: {
           title: 'Caffeine, CYP1A2 Genotype, and Endurance Performance in... : Medicine & Science in Sports & Exercise',
           url: 'https://journals.lww.com/acsm-msse/Fulltext/2018/08000/Caffeine,_CYP1A2_Genotype,_and_Endurance.5.aspx'
@@ -166,6 +166,7 @@ interface FileUploadProps {
     onUploadSuccess: (results: AnalysisResult[]) => void;
 }
 
+// drag and drop file upload
 const FileUpload: React.FC<FileUploadProps> = ({ onUploadSuccess }) => {
     const [isDragging, setIsDragging] = useState(false);
     const [selectedFile, setSelectedFile] = useState<File | null>(null);
@@ -207,6 +208,7 @@ const FileUpload: React.FC<FileUploadProps> = ({ onUploadSuccess }) => {
         }
     };
 
+    // upload file and get results
     const handleAnalyze = async () => {
         if (selectedFile) {
             try {
