@@ -1,0 +1,705 @@
+[
+    {
+      "rsid": "rs4988235",
+      "traitName": "Lactose Intolerance",
+      "genotypeInterpretation": {
+        "CC": "Likely lactose intolerant",
+        "CT": "Intermediate tolerance",
+        "TT": "Likely lactose tolerant"
+      },
+      "queryTemplate": "diet tips for lactose intolerance management",
+      "priority": "medium",
+      "evidenceScore": 4,
+      "actionabilityScore": 3
+    },
+    {
+      "rsid": "rs1801133",
+      "traitName": "Folate Metabolism (MTHFR)",
+      "genotypeInterpretation": {
+        "CC": "Typical enzyme activity",
+        "CT": "Moderately reduced enzyme activity",
+        "TT": "Significantly reduced enzyme activity"
+      },
+      "queryTemplate": "best dietary sources of folate for individuals with MTHFR variants",
+      "priority": "high",
+      "evidenceScore": 5,
+      "actionabilityScore": 4
+    },
+    {
+      "rsid": "rs762551",
+      "traitName": "Caffeine Metabolism (CYP1A2)",
+      "genotypeInterpretation": {
+        "AA": "Fast caffeine metabolizer",
+        "AC": "Intermediate caffeine metabolizer",
+        "CC": "Slow caffeine metabolizer"
+      },
+      "queryTemplate": "recommended caffeine intake guidelines",
+      "priority": "high",
+      "evidenceScore": 5,
+      "actionabilityScore": 4
+    },
+    {
+      "rsid": "rs1815739",
+      "traitName": "Muscle Performance (ACTN3)",
+      "genotypeInterpretation": {
+        "RR": "Power athlete type",
+        "RX": "Mixed power/endurance",
+        "XX": "Endurance athlete type"
+      },
+      "queryTemplate": "exercise regimens tailored to ACTN3 genotypes",
+      "priority": "low",
+      "evidenceScore": 3,
+      "actionabilityScore": 2
+    },
+    {
+      "rsid": "rs1800497",
+      "traitName": "Dopamine Receptor (DRD2) and Reward Sensitivity",
+      "genotypeInterpretation": {
+        "CC": "Typical reward sensitivity",
+        "CT": "Slightly altered reward sensitivity",
+        "TT": "Altered reward sensitivity"
+      },
+      "queryTemplate": "behavioral strategies to manage reward-driven eating or habits",
+      "priority": "medium",
+      "evidenceScore": 4,
+      "actionabilityScore": 3
+    },
+    {
+      "rsid": "rs7412",
+      "traitName": "Cholesterol Metabolism (APOE E2)",
+      "genotypeInterpretation": {
+        "CC": "Lower typical LDL cholesterol levels",
+        "CT": "Moderate typical LDL levels",
+        "TT": "Higher typical LDL cholesterol levels"
+      },
+      "queryTemplate": "heart-healthy diet recommendations for different APOE genotypes",
+      "priority": "high",
+      "evidenceScore": 5,
+      "actionabilityScore": 3
+    },
+    {
+      "rsid": "rs429358",
+      "traitName": "Cholesterol Metabolism (APOE E4)",
+      "genotypeInterpretation": {
+        "CC": "Higher typical LDL cholesterol levels",
+        "CT": "Moderate typical LDL levels",
+        "TT": "Lower typical LDL cholesterol levels"
+      },
+      "queryTemplate": "managing cholesterol for APOE E4 carriers",
+      "priority": "high",
+      "evidenceScore": 5,
+      "actionabilityScore": 3
+    },
+    {
+      "rsid": "rs1229984",
+      "traitName": "Alcohol Metabolism (ADH1B)",
+      "genotypeInterpretation": {
+        "CC": "Fast alcohol metabolism",
+        "CT": "Intermediate alcohol metabolism",
+        "TT": "Slow alcohol metabolism"
+      },
+      "queryTemplate": "strategies for moderating alcohol intake based on ADH1B genotype",
+      "priority": "medium",
+      "evidenceScore": 4,
+      "actionabilityScore": 2
+    },
+    {
+      "rsid": "rs671",
+      "traitName": "Alcohol Flush Reaction (ALDH2)",
+      "genotypeInterpretation": {
+        "GG": "Typical ALDH2 enzyme activity",
+        "GA": "Reduced ALDH2 enzyme activity (mild flush)",
+        "AA": "Very reduced ALDH2 enzyme activity (strong flush)"
+      },
+      "queryTemplate": "managing alcohol flush reaction and reducing associated risks",
+      "priority": "medium",
+      "evidenceScore": 5,
+      "actionabilityScore": 2
+    },
+    {
+      "rsid": "rs5569",
+      "traitName": "Stress Response (SLC6A2 - Norepinephrine Transporter)",
+      "genotypeInterpretation": {
+        "AA": "Typical stress response",
+        "AG": "Moderate alteration in stress reactivity",
+        "GG": "Significant alteration in stress reactivity"
+      },
+      "queryTemplate": "stress management techniques for different SLC6A2 genotypes",
+      "priority": "low",
+      "evidenceScore": 3,
+      "actionabilityScore": 2
+    },
+    {
+      "rsid": "rs53576",
+      "traitName": "Oxytocin Receptor (Social Behavior)",
+      "genotypeInterpretation": {
+        "AA": "Higher empathy and sociability",
+        "AG": "Moderate empathy and sociability",
+        "GG": "Typical empathy and sociability"
+      },
+      "queryTemplate": "lifestyle tips for improving social bonding and emotional well-being",
+      "priority": "low",
+      "evidenceScore": 3,
+      "actionabilityScore": 2
+    },
+    {
+      "rsid": "rs1800012",
+      "traitName": "Collagen and Bone Density (COL1A1)",
+      "genotypeInterpretation": {
+        "GG": "Typical bone density",
+        "GT": "Slightly altered collagen production",
+        "TT": "Potentially lower bone density"
+      },
+      "queryTemplate": "nutrition and exercise programs for improved bone health",
+      "priority": "medium",
+      "evidenceScore": 4,
+      "actionabilityScore": 3
+    },
+    {
+      "rsid": "rs9939609",
+      "traitName": "Body Weight Regulation (FTO)",
+      "genotypeInterpretation": {
+        "AA": "Higher likelihood of weight gain",
+        "AT": "Moderate likelihood of weight gain",
+        "TT": "Lower likelihood of weight gain"
+      },
+      "queryTemplate": "weight management strategies for different FTO genotypes",
+      "priority": "high",
+      "evidenceScore": 5,
+      "actionabilityScore": 4
+    },
+    {
+      "rsid": "rs662799",
+      "traitName": "Triglyceride Levels (APOA5)",
+      "genotypeInterpretation": {
+        "CC": "Lower typical triglycerides",
+        "CG": "Moderate typical triglycerides",
+        "GG": "Higher typical triglycerides"
+      },
+      "queryTemplate": "diet tips for managing triglycerides based on APOA5 genotype",
+      "priority": "medium",
+      "evidenceScore": 4,
+      "actionabilityScore": 3
+    },
+    {
+      "rsid": "rs5082",
+      "traitName": "Fat Intake and Obesity Risk (APOB)",
+      "genotypeInterpretation": {
+        "CC": "Higher sensitivity to dietary fat",
+        "CT": "Moderate sensitivity to dietary fat",
+        "TT": "Lower sensitivity to dietary fat"
+      },
+      "queryTemplate": "adapting dietary fat intake to APOB genotype",
+      "priority": "low",
+      "evidenceScore": 3,
+      "actionabilityScore": 2
+    },
+    {
+      "rsid": "rs1799883",
+      "traitName": "PPARG and Fat Metabolism",
+      "genotypeInterpretation": {
+        "CC": "Typical risk of insulin resistance",
+        "CG": "Moderate risk of insulin resistance",
+        "GG": "Higher risk of insulin resistance"
+      },
+      "queryTemplate": "diet and exercise to reduce metabolic syndrome risk",
+      "priority": "medium",
+      "evidenceScore": 4,
+      "actionabilityScore": 3
+    },
+    {
+      "rsid": "rs1801282",
+      "traitName": "Insulin Sensitivity (PPARG Pro12Ala)",
+      "genotypeInterpretation": {
+        "CC": "Reduced insulin sensitivity",
+        "CG": "Intermediate insulin sensitivity",
+        "GG": "Improved insulin sensitivity"
+      },
+      "queryTemplate": "lifestyle changes for improving insulin sensitivity",
+      "priority": "high",
+      "evidenceScore": 5,
+      "actionabilityScore": 4
+    },
+    {
+      "rsid": "rs5443",
+      "traitName": "Hypertension Risk (GNB3)",
+      "genotypeInterpretation": {
+        "CC": "Typical risk of high blood pressure",
+        "CT": "Moderate risk of high blood pressure",
+        "TT": "Higher risk of high blood pressure"
+      },
+      "queryTemplate": "sodium intake guidelines and blood pressure management",
+      "priority": "medium",
+      "evidenceScore": 4,
+      "actionabilityScore": 3
+    },
+    {
+      "rsid": "rs1169318",
+      "traitName": "Vitamin D Receptor Function (VDR)",
+      "genotypeInterpretation": {
+        "AA": "More efficient Vitamin D receptor function",
+        "AG": "Moderately efficient",
+        "GG": "Less efficient Vitamin D receptor function"
+      },
+      "queryTemplate": "vitamin D supplementation strategies",
+      "priority": "medium",
+      "evidenceScore": 4,
+      "actionabilityScore": 2
+    },
+    {
+      "rsid": "rs3827760",
+      "traitName": "Dry vs. Wet Earwax (ABCC11) / Body Odor",
+      "genotypeInterpretation": {
+        "AA": "Dry earwax, less body odor",
+        "AG": "Intermediate phenotype",
+        "GG": "Wet earwax, stronger body odor"
+      },
+      "queryTemplate": "personal hygiene tips for different ABCC11 genotypes",
+      "priority": "low",
+      "evidenceScore": 2,
+      "actionabilityScore": 1
+    },
+    {
+      "rsid": "rs1800629",
+      "traitName": "Inflammatory Response (TNF-Alpha)",
+      "genotypeInterpretation": {
+        "AA": "Higher inflammatory response",
+        "AG": "Moderate inflammatory response",
+        "GG": "Lower inflammatory response"
+      },
+      "queryTemplate": "anti-inflammatory diet recommendations",
+      "priority": "medium",
+      "evidenceScore": 4,
+      "actionabilityScore": 3
+    },
+    {
+      "rsid": "rs1800871",
+      "traitName": "IL-10 Anti-Inflammatory Cytokine Production",
+      "genotypeInterpretation": {
+        "CC": "Lower IL-10 production",
+        "CA": "Moderate IL-10 production",
+        "AA": "Higher IL-10 production"
+      },
+      "queryTemplate": "managing inflammation through diet and lifestyle",
+      "priority": "low",
+      "evidenceScore": 3,
+      "actionabilityScore": 2
+    },
+    {
+      "rsid": "rs2070744",
+      "traitName": "Endothelial Nitric Oxide Synthase (NOS3)",
+      "genotypeInterpretation": {
+        "TT": "Typical nitric oxide synthesis",
+        "TC": "Moderate alteration in NO synthesis",
+        "CC": "Reduced nitric oxide synthesis"
+      },
+      "queryTemplate": "exercise and nutrition to improve cardiovascular function",
+      "priority": "medium",
+      "evidenceScore": 4,
+      "actionabilityScore": 3
+    },
+    {
+      "rsid": "rs5030737",
+      "traitName": "HDL Cholesterol (LIPC)",
+      "genotypeInterpretation": {
+        "CC": "Typical HDL levels",
+        "CT": "Moderately higher HDL levels",
+        "TT": "Higher HDL levels"
+      },
+      "queryTemplate": "diet tips to maintain healthy HDL cholesterol",
+      "priority": "medium",
+      "evidenceScore": 4,
+      "actionabilityScore": 2
+    },
+    {
+      "rsid": "rs6013029",
+      "traitName": "Taste Receptor (TAS2R38) - Bitter Taste Sensitivity",
+      "genotypeInterpretation": {
+        "CC": "High bitter taste sensitivity",
+        "CT": "Moderate bitter taste sensitivity",
+        "TT": "Low bitter taste sensitivity"
+      },
+      "queryTemplate": "diet modifications for bitter taste sensitivity",
+      "priority": "low",
+      "evidenceScore": 3,
+      "actionabilityScore": 2
+    },
+    {
+      "rsid": "rs1761667",
+      "traitName": "Taste Receptor (CD36) - Fat Perception",
+      "genotypeInterpretation": {
+        "AA": "Heightened fat perception",
+        "AG": "Moderate fat perception",
+        "GG": "Reduced fat perception"
+      },
+      "queryTemplate": "managing dietary fat intake",
+      "priority": "low",
+      "evidenceScore": 3,
+      "actionabilityScore": 2
+    },
+    {
+      "rsid": "rs12299961",
+      "traitName": "Nicotinic Receptor (CHRNA3) and Smoking Behavior",
+      "genotypeInterpretation": {
+        "CC": "Higher tendency for nicotine dependence",
+        "CT": "Moderate tendency for nicotine dependence",
+        "TT": "Lower tendency for nicotine dependence"
+      },
+      "queryTemplate": "strategies for quitting smoking based on CHRNA3 genotype",
+      "priority": "medium",
+      "evidenceScore": 4,
+      "actionabilityScore": 3
+    },
+    {
+      "rsid": "rs1049353",
+      "traitName": "Cannabinoid Receptor (CNR1)",
+      "genotypeInterpretation": {
+        "AA": "Typical response to cannabinoids",
+        "AG": "Moderate alteration in cannabinoid response",
+        "GG": "Altered response to cannabinoids"
+      },
+      "queryTemplate": "stress and pain management strategies for different CNR1 genotypes",
+      "priority": "low",
+      "evidenceScore": 3,
+      "actionabilityScore": 2
+    },
+    {
+      "rsid": "rs1800544",
+      "traitName": "GABRB3 and Anxiety Response",
+      "genotypeInterpretation": {
+        "CC": "Lower baseline anxiety response",
+        "CT": "Moderate baseline anxiety response",
+        "TT": "Higher baseline anxiety response"
+      },
+      "queryTemplate": "mindfulness and relaxation techniques personalized by GABRB3 genotype",
+      "priority": "medium",
+      "evidenceScore": 4,
+      "actionabilityScore": 2
+    },
+    {
+      "rsid": "rs6265",
+      "traitName": "BDNF and Neuroplasticity",
+      "genotypeInterpretation": {
+        "CC": "Higher BDNF levels",
+        "CT": "Moderate BDNF levels",
+        "TT": "Reduced BDNF levels"
+      },
+      "queryTemplate": "brain health exercises and dietary tips for BDNF genotypes",
+      "priority": "medium",
+      "evidenceScore": 4,
+      "actionabilityScore": 2
+    },
+    {
+      "rsid": "rs1801131",
+      "traitName": "MTHFR A1298C (Folate Metabolism)",
+      "genotypeInterpretation": {
+        "AA": "Typical enzyme activity",
+        "AC": "Moderately reduced enzyme activity",
+        "CC": "Further reduced enzyme activity"
+      },
+      "queryTemplate": "folate supplementation for MTHFR A1298C variants",
+      "priority": "high",
+      "evidenceScore": 5,
+      "actionabilityScore": 3
+    },
+    {
+      "rsid": "rs1143627",
+      "traitName": "IL-1B Inflammatory Response",
+      "genotypeInterpretation": {
+        "TT": "Higher IL-1B production",
+        "TC": "Moderate IL-1B production",
+        "CC": "Lower IL-1B production"
+      },
+      "queryTemplate": "anti-inflammatory diet and lifestyle for IL-1B variants",
+      "priority": "medium",
+      "evidenceScore": 4,
+      "actionabilityScore": 3
+    },
+    {
+      "rsid": "rs4149056",
+      "traitName": "Statin Metabolism (SLCO1B1)",
+      "genotypeInterpretation": {
+        "TT": "Typical statin metabolism",
+        "TC": "Moderate statin sensitivity",
+        "CC": "Increased risk of statin side effects"
+      },
+      "queryTemplate": "personalized cholesterol management and medication guidance",
+      "priority": "high",
+      "evidenceScore": 5,
+      "actionabilityScore": 3
+    },
+    {
+      "rsid": "rs55678698",
+      "traitName": "PALB2 and DNA Repair",
+      "genotypeInterpretation": {
+        "AA": "Typical DNA repair function",
+        "AC": "Moderately affected DNA repair",
+        "CC": "Significantly affected DNA repair"
+      },
+      "queryTemplate": "lifestyle strategies to reduce oxidative stress",
+      "priority": "medium",
+      "evidenceScore": 4,
+      "actionabilityScore": 2
+    },
+    {
+      "rsid": "rs9930506",
+      "traitName": "Leptin Sensitivity (LEPR)",
+      "genotypeInterpretation": {
+        "AA": "Typical leptin function",
+        "AG": "Moderate leptin resistance",
+        "GG": "Higher leptin resistance"
+      },
+      "queryTemplate": "weight management and hunger control strategies",
+      "priority": "high",
+      "evidenceScore": 5,
+      "actionabilityScore": 4
+    },
+    {
+      "rsid": "rs10938397",
+      "traitName": "Energy Homeostasis (GPR120)",
+      "genotypeInterpretation": {
+        "CC": "Typical energy balance control",
+        "CT": "Moderate alteration in energy balance",
+        "TT": "Increased alteration in energy balance"
+      },
+      "queryTemplate": "tips to regulate energy intake/expenditure",
+      "priority": "medium",
+      "evidenceScore": 4,
+      "actionabilityScore": 2
+    },
+    {
+      "rsid": "rs17300539",
+      "traitName": "Adiponectin Levels (ADIPOQ)",
+      "genotypeInterpretation": {
+        "GG": "Higher adiponectin levels",
+        "GT": "Moderate adiponectin levels",
+        "TT": "Lower adiponectin levels"
+      },
+      "queryTemplate": "strategies to improve insulin sensitivity and reduce inflammation",
+      "priority": "medium",
+      "evidenceScore": 4,
+      "actionabilityScore": 2
+    },
+    {
+      "rsid": "rs1803274",
+      "traitName": "Butyrylcholinesterase (BCHE) and Detox",
+      "genotypeInterpretation": {
+        "AA": "Typical detox capacity",
+        "AC": "Slightly reduced detox capacity",
+        "CC": "Reduced detox capacity"
+      },
+      "queryTemplate": "recommendations for supporting liver and detox pathways",
+      "priority": "low",
+      "evidenceScore": 3,
+      "actionabilityScore": 2
+    },
+    {
+      "rsid": "rs4646994",
+      "traitName": "ACE Gene and Blood Pressure",
+      "genotypeInterpretation": {
+        "II": "Lower ACE levels",
+        "ID": "Intermediate ACE levels",
+        "DD": "Higher ACE levels"
+      },
+      "queryTemplate": "fitness and dietary strategies for different ACE genotypes",
+      "priority": "medium",
+      "evidenceScore": 4,
+      "actionabilityScore": 3
+    },
+    {
+      "rsid": "rs1800470",
+      "traitName": "Transforming Growth Factor Beta (TGFB1)",
+      "genotypeInterpretation": {
+        "CC": "Lower TGF-β production",
+        "CT": "Moderate TGF-β production",
+        "TT": "Higher TGF-β production"
+      },
+      "queryTemplate": "bone health and inflammation management strategies",
+      "priority": "medium",
+      "evidenceScore": 4,
+      "actionabilityScore": 2
+    },
+    {
+      "rsid": "rs7578597",
+      "traitName": "GLIS3 and Glucose Regulation",
+      "genotypeInterpretation": {
+        "CC": "Typical glucose regulation",
+        "CT": "Moderate risk of impaired glucose regulation",
+        "TT": "Higher risk of impaired glucose regulation"
+      },
+      "queryTemplate": "blood sugar management and dietary guidance",
+      "priority": "medium",
+      "evidenceScore": 4,
+      "actionabilityScore": 3
+    },
+    {
+      "rsid": "rs1333040",
+      "traitName": "Coronary Artery Disease Risk (CDKN2B-AS1)",
+      "genotypeInterpretation": {
+        "CC": "Lower risk for CAD",
+        "CT": "Moderate risk for CAD",
+        "TT": "Higher risk for CAD"
+      },
+      "queryTemplate": "lifestyle habits to reduce heart disease risk",
+      "priority": "medium",
+      "evidenceScore": 4,
+      "actionabilityScore": 3
+    },
+    {
+      "rsid": "rs3749474",
+      "traitName": "SOD2 (Manganese Superoxide Dismutase) Oxidative Stress",
+      "genotypeInterpretation": {
+        "AA": "Typical antioxidant enzyme function",
+        "AG": "Moderately altered enzyme function",
+        "GG": "Reduced antioxidant enzyme function"
+      },
+      "queryTemplate": "foods and supplements to support antioxidant defenses",
+      "priority": "low",
+      "evidenceScore": 3,
+      "actionabilityScore": 2
+    },
+    {
+      "rsid": "rs10830963",
+      "traitName": "MTNR1B and Circadian Regulation of Glucose",
+      "genotypeInterpretation": {
+        "CC": "Typical melatonin receptor function",
+        "CG": "Moderate impact on glucose regulation",
+        "GG": "Higher impact on glucose regulation"
+      },
+      "queryTemplate": "sleep hygiene and meal timing for optimal glucose control",
+      "priority": "medium",
+      "evidenceScore": 4,
+      "actionabilityScore": 2
+    },
+    {
+      "rsid": "rs1805007",
+      "traitName": "MC1R and Skin Pigmentation",
+      "genotypeInterpretation": {
+        "CC": "Typical pigmentation (lower UV sensitivity)",
+        "CT": "Intermediate pigmentation (moderate UV sensitivity)",
+        "TT": "Reduced pigmentation (higher UV sensitivity)"
+      },
+      "queryTemplate": "UV protection and vitamin D considerations",
+      "priority": "medium",
+      "evidenceScore": 4,
+      "actionabilityScore": 2
+    },
+    {
+      "rsid": "rs4795541",
+      "traitName": "BCL2 and Cell Apoptosis",
+      "genotypeInterpretation": {
+        "AA": "Typical apoptotic function",
+        "AG": "Moderate variation",
+        "GG": "Possible altered apoptotic function"
+      },
+      "queryTemplate": "cellular health and anti-cancer lifestyle strategies",
+      "priority": "low",
+      "evidenceScore": 3,
+      "actionabilityScore": 2
+    },
+    {
+      "rsid": "rs9282858",
+      "traitName": "CPT1A and Fatty Acid Oxidation",
+      "genotypeInterpretation": {
+        "CC": "Typical fatty acid metabolism",
+        "CT": "Moderately altered fatty acid metabolism",
+        "TT": "Reduced fatty acid oxidation"
+      },
+      "queryTemplate": "nutritional guidance for optimizing fatty acid usage",
+      "priority": "low",
+      "evidenceScore": 3,
+      "actionabilityScore": 2
+    },
+    {
+      "rsid": "rs17782313",
+      "traitName": "MC4R and Appetite Regulation",
+      "genotypeInterpretation": {
+        "CC": "Typical appetite control",
+        "CT": "Moderate appetite dysregulation",
+        "TT": "Increased appetite and obesity risk"
+      },
+      "queryTemplate": "mindful eating and portion control strategies",
+      "priority": "high",
+      "evidenceScore": 5,
+      "actionabilityScore": 4
+    },
+    {
+      "rsid": "rs7216389",
+      "traitName": "ORMDL3 and Asthma Risk",
+      "genotypeInterpretation": {
+        "CC": "Lower risk of asthma",
+        "CT": "Moderate risk of asthma",
+        "TT": "Higher risk of asthma"
+      },
+      "queryTemplate": "environmental and dietary measures to manage asthma risk",
+      "priority": "medium",
+      "evidenceScore": 4,
+      "actionabilityScore": 2
+    },
+    {
+      "rsid": "rs2304778",
+      "traitName": "NAT2 and Caffeine/Drug Acetylation",
+      "genotypeInterpretation": {
+        "RR": "Rapid acetylator",
+        "RS": "Intermediate acetylator",
+        "SS": "Slow acetylator"
+      },
+      "queryTemplate": "caffeine and medication dosing considerations",
+      "priority": "low",
+      "evidenceScore": 3,
+      "actionabilityScore": 2
+    },
+    {
+      "rsid": "rs1801285",
+      "traitName": "PLIN1 (Perilipin) and Fat Storage",
+      "genotypeInterpretation": {
+        "AA": "Higher fat storage capacity",
+        "AG": "Moderate fat storage capacity",
+        "GG": "Lower fat storage capacity"
+      },
+      "queryTemplate": "personalized exercise routines for fat loss",
+      "priority": "low",
+      "evidenceScore": 3,
+      "actionabilityScore": 2
+    },
+    {
+      "rsid": "rs17321515",
+      "traitName": "UCP2 (Uncoupling Protein) and Energy Expenditure",
+      "genotypeInterpretation": {
+        "AA": "Higher metabolic rate",
+        "AG": "Intermediate metabolic rate",
+        "GG": "Lower metabolic rate"
+      },
+      "queryTemplate": "dietary considerations for individuals with varying metabolism",
+      "priority": "low",
+      "evidenceScore": 3,
+      "actionabilityScore": 2
+    },
+    {
+      "rsid": "rs2109801",
+      "traitName": "PPARGC1A and Endurance Capacity",
+      "genotypeInterpretation": {
+        "AA": "Better endurance performance",
+        "AG": "Intermediate endurance",
+        "GG": "Lower endurance capacity"
+      },
+      "queryTemplate": "endurance training programs tailored to PPARGC1A genotype",
+      "priority": "medium",
+      "evidenceScore": 4,
+      "actionabilityScore": 2
+    },
+    {
+      "rsid": "rs4343",
+      "traitName": "ACE (Insertion/Deletion) Blood Pressure",
+      "genotypeInterpretation": {
+        "II": "Lower ACE levels (improved endurance)",
+        "ID": "Intermediate ACE levels",
+        "DD": "Higher ACE levels (improved power)"
+      },
+      "queryTemplate": "personalized cardiovascular exercise plans",
+      "priority": "medium",
+      "evidenceScore": 4,
+      "actionabilityScore": 3
+    }
+  ]
+  

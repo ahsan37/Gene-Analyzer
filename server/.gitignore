@@ -1,0 +1,19 @@
+# Dependencies
+/node_modules
+
+# Build output
+/dist
+
+# Environment variables
+.env
+
+# Upload directory contents
+/uploads/*
+!/uploads/.gitkeep
+
+# Logs
+*.log
+npm-debug.log*
+
+# Coverage directory
+/coverage
