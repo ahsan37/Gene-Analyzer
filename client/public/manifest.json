@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "ExaGene",
+  "name": "ExaGene - Genomic Analysis Tool",
   "icons": [
     {
       "src": "favicon.ico",
