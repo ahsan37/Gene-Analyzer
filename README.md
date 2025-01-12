@@ -2,7 +2,7 @@
 
 **Disclaimer**: This tool is an independent project and is not affiliated with or endorsed by Exa.ai.
 
-ExaGene is an open-source tool that analyzes 23andMe raw genetic data to provide insights based on current scientific research. It uses AI to search and summarize relevant research papers for your specific genetic variants.
+ExaGene is a tool that analyzes 23andMe raw genetic data to provide insights based on current scientific research. It uses AI to search and summarize relevant research papers for your specific genetic variants.
 
 <img src="docs/screenshot.png" alt="ExaGene Screenshot" width="800"/>
 
