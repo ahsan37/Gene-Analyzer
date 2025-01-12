@@ -1,7 +1,7 @@
 import { Request, Response } from 'express';
 import * as parseService from '../services/parseService';
 import { searchExa } from '../services/exaService';
-import curatedSNPS from '../data/SNPS.json';
+import curatedSNPS from '../data/SNPs.json';
 import { SNP, EnrichedSNP } from '../types/snps';
 import { rankAndFilterSNPs } from '../utils/snpRanking';
 import { refineQuery, summarizeExaResults } from '../services/openaiService';
@@ -44,7 +44,7 @@ export async function handleUpload(req: Request, res: Response): Promise<Respons
       }
     }
 
-
+    // rank and filter top 10 SNPs based on scoring metric 
     const topSNPs = rankAndFilterSNPs(enrichedSNPs, 10) as EnrichedSNP[];
     console.log('\n=== Selected Top 10 SNPs ===');
     topSNPs.forEach((snp, index) => {
