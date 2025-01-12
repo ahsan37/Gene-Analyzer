@@ -31,8 +31,7 @@ export async function summarizeExaResults(refinedQuery: string, exaResults: any[
     const messages: ChatCompletionMessageParam[] = [
         {
             role: 'system',
-            content: `You are a research summarizer focusing on genetic studies. Your task is to create a clear, 
-                     accessible summary based primarily on the provided research highlights. The summary should:
+            content: `You are an genomics researcher. Your task is to create a clear, actionable summary based primarily on the provided research highlights. The summary should:
                      1. Focus on explaining the key findings from the highlights in simple terms
                      2. Be as relevant as possible to the query: "${refinedQuery}"
                      3. Provide actionable advice for the user

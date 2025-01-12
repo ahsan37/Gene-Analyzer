@@ -6,6 +6,7 @@ if (!process.env.EXASEARCH_API_KEY) {
 
 const exa = new Exa(process.env.EXASEARCH_API_KEY || '')
 
+//exa search params 
 const searchOptions = {
     useAutoprompt: true,
     type: "auto",
@@ -21,6 +22,7 @@ const searchOptions = {
     },
 };
 
+//rag search 
 export async function searchExa(query: string) {
     try{
         const result = await exa.searchAndContents(query, searchOptions);

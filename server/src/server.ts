@@ -17,7 +17,7 @@ const upload = multer({
 
 app.use(cors({
   origin: process.env.NODE_ENV === 'production' 
-    ? ['https://gene-analyzer.vercel.app'] // Update this with your Vercel domain once deployed
+    ? ['https://gene-analyzer.vercel.app'] 
     : ['http://localhost:3000'],
   credentials: true
 }));
